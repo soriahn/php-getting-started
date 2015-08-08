@@ -69,19 +69,19 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse">
       <ul class="nav navbar-nav">
         <li>
-          <a href="http://localhost/src/09/djlist.php">DJ LIST</a>
+          <a href="/djlist.php">DJ LIST</a>
         </li>
         <li>
-          <a href="http://localhost/src/09/festival.php">FESTIVALS</a>
+          <a href="/festival.php">FESTIVALS</a>
         </li>
         <li>
-          <a href="http://localhost/src/09/MIXSETS.php">MIXSETS</a>
+          <a href="/MIXSETS.php">MIXSETS</a>
         </li>
         <li>
-          <a href="http://localhost/src/09/free/list.php">CONTACT</a>
+          <a href="/free/list.php">CONTACT</a>
         </li>
         <li>
-          <a href="http://localhost/src/09/survey/survey.php">SURVEY</a>
+          <a href="/survey/survey.php">SURVEY</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
