@@ -64,7 +64,7 @@
         <span class="icon-bar"></span>
       </button>
 		 
-      <a href="http://localhost/src/09/index1.php" class="navbar-brand"">WELCOME</a>
+      <a href="/index1.php" class="navbar-brand"">WELCOME</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse">
       <ul class="nav navbar-nav">
@@ -101,7 +101,7 @@
   <div id="content">
 		<div id="main_img"><img src="./img/main_img.jpg"></div>
   </div> <!-- end of content -->
-    <p class="lead">WECOME TO EDM WORLD</p>
+    <p class="lead">WELCOME TO EDM WORLD</p>
 	<iframe width="854" height="510" src="https://www.youtube.com/embed/cUhPA5qIxDQ" frameborder="0" allowfullscreen ></iframe>
     <p class="lead">
       <a href="https://youtu.be/cUhPA5qIxDQ" class="btn btn-outline-inverse btn-lg" onclick="ga(&#39;send&#39;, &#39;event&#39;, &#39;Jumbotron actions&#39;, &#39;Download&#39;, &#39;Download 3.3.4&#39;);">영상</a>
