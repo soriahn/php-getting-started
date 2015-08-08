@@ -1,20 +1,30 @@
-<?php
+<?
+	session_start();
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+</head>
 
-require('../vendor/autoload.php');
+<body>
+<div id="wrap">
+	<div id="header">
+    <? include "./lib/top_login1.php"; ?>
+	</div>  <!-- end of header -->
 
-$app = new Silex\Application();
-$app['debug'] = true;
+	<div id="menu">
+	<? include "./lib/top_menu1.php"; ?>
+	</div>  <!-- end of menu --> 
 
-// Register the monolog logging service
-$app->register(new Silex\Provider\MonologServiceProvider(), array(
-  'monolog.logfile' => 'php://stderr',
-));
+  <div id="content">
+		<div id="main_img"><img src="./img/main_img.jpg"></div>
+															
+	
 
-// Our web handlers
+  </div> <!-- end of content -->
+</div> <!-- end of wrap -->
 
-$app->get('/', function() use($app) {
-  $app['monolog']->addDebug('logging output.');
-  return 'Hello';
-});
-
-$app->run();
+</body>
+</html>
